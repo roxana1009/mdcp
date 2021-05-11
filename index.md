@@ -7,20 +7,10 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# My page
+## MDCP-IT lab
+###-cookies-
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 <script> document.cookie = "session=test GDPR";
   document.cookie = "favorite_task=collect Data";
   function alertCookie() { alert(document.cookie); } </script>
