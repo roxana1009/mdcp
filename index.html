@@ -18,7 +18,7 @@
   function alertCookie() { alert(document.cookie); } </script>
 <body>  <button onclick="alertCookie()">Check cookies</button> </body>
 
-document.cookie = "name=oeschger";
+<script> document.cookie = "name=oeschger";
 document.cookie = "favorite_food=tripe";
 function alertCookie() {
   alert(document.cookie);
@@ -77,5 +77,5 @@ if (document.cookie.split(';').some(function(item) {
 if (document.cookie.split(';').some((item) => item.includes('reader=1'))) {
     console.log('The cookie "reader" has "1" for value')
 }
-
+</script>
 
