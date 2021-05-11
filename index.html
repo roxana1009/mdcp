@@ -17,6 +17,7 @@
   document.cookie = "favorite_task=collect Data";
   function alertCookie() { alert(document.cookie); } </script>
 <body>  <button onclick="alertCookie()">Check cookies</button> </body>
+ <br>
 
 <script> document.cookie = "name=oeschger";
 document.cookie = "favorite_food=tripe";
@@ -24,6 +25,7 @@ function alertCookie() {
   alert(document.cookie);
 } </script>
 <body> <button onclick="alertCookie()">Show cookies</button> </body>
+ <br>
 
 
 <script> document.cookie = "test1=Hello";
@@ -38,6 +40,7 @@ function alertCookieValue() {
   alert(cookieValue);
 }</script>
 <body> <button onclick="alertCookieValue()">Show cookie value</button> </body>
+ <br>
 
 <script>
 function doOnce() {
@@ -47,12 +50,14 @@ function doOnce() {
   }
 } </script>
 <body> <button onclick="doOnce()">Only do something once</button> </body>
+ <br>
 
 <script>
 function resetOnce() {
   document.cookie = "doSomethingOnlyOnce=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
 }</script>
 <body> <button onclick="resetOnce()">Reset only once cookie</button> </body>
+ <br>
 
 <script>
 if (document.cookie.split(';').some(function(item) {
